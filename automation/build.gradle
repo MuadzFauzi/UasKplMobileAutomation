@@ -1,0 +1,9 @@
+plugins {
+    id 'java-library'
+}
+
+dependencies {
+    // Library Appium & TestNG murni tanpa gangguan Android SDK
+    implementation 'io.appium:java-client:8.6.0'
+    implementation 'org.testng:testng:7.8.0'
+}
